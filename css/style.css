@@ -2429,9 +2429,9 @@ a.brand:focus {
   font-weight: 600;
 }
 
-.section-info {
+/* .section-info {
   margin-bottom: 4rem;
-}
+} */
 
 .section-info .title-hr {
   margin: 0 0 2rem;
@@ -3418,7 +3418,7 @@ a.brand:focus {
 }
 
 .contact-top {
-  margin-bottom: 1.3rem;
+  margin-bottom: 0;
 }
 
 .contact-title span {
@@ -3430,7 +3430,7 @@ a.brand:focus {
   font-size: 1.142rem;
   line-height: 1.875;
   letter-spacing: -0.025rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
 }
 
 .contact-row {
@@ -3896,6 +3896,15 @@ a.brand:focus {
 #card_4 {
   --index: 4;
 }
+#card_5 {
+  --index: 5;
+}
+#card_6 {
+  --index: 6;
+}
+#card_7 {
+  --index: 7;
+}
 
 .card {
   position: sticky;
@@ -4012,4 +4021,9 @@ a.brand:focus {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.card__title {
+  color: #21202f;
+  font-size: 2rem;
 }

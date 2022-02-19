@@ -4058,3 +4058,25 @@ a.brand:focus {
     margin-bottom: 50px;
   }
 }
+
+.language_dropdown {
+  display: none;
+}
+
+.language_open {
+  display: block;
+  position: absolute;
+  top: 100px;
+  background-color: #21202f;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #fff;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.language_open > a {
+  margin-left: 0;
+  padding: 8px;
+}

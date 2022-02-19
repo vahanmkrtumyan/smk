@@ -111,6 +111,13 @@
     return false;
   });
 
+  var dropToggle2 = $(".asdasd");
+
+  dropToggle2.on("click", function () {
+    $(".language_dropdown").toggleClass("language_open");
+    return false;
+  });
+
   /*-------------------------------------------------------------------------------
 	  Smooth scroll to anchor
 	-------------------------------------------------------------------------------*/

@@ -98,7 +98,9 @@
     $("body").removeClass("menu-is-closed").addClass("menu-is-opened");
   });
 
-  $(".close-menu, .click-capture").on("click", function () {
+  $(
+    ".close-menu, .click-capture, #navbarLink, #aboutLink, #serviceLink, #contactLink, #works"
+  ).on("click", function () {
     $("body").removeClass("menu-is-opened").addClass("menu-is-closed");
     $(".menu-list ul").slideUp(300);
   });

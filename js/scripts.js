@@ -545,6 +545,69 @@
     return false;
   });
 
+
+
+
+
+  $("#homeLink1").click(function () {
+    $("html, body").animate(
+      {
+        scrollTop: $("#home").offset().top,
+      },
+      1000
+    );
+    return false;
+  });
+
+  $("#aboutLink1").click(function () {
+    $("html, body").animate(
+      {
+        scrollTop: $("#about").offset().top,
+      },
+      1000
+    );
+    return false;
+  });
+
+  $("#navbarLink1").click(function () {
+    $("html, body").animate(
+      {
+        scrollTop: $("#navbar").offset().top,
+      },
+      1000
+    );
+    return false;
+  });
+
+  $("#serviceLink1").click(function () {
+    $("html, body").animate(
+      {
+        scrollTop: $("#service").offset().top,
+      },
+      1000
+    );
+    return false;
+  });
+  $("#whyChooseUsLink1").click(function () {
+    $("html, body").animate(
+      {
+        scrollTop: $("#whyChooseUs").offset().top,
+      },
+      1000
+    );
+    return false;
+  });
+
+  $("#contactLink1").click(function () {
+    $("html, body").animate(
+      {
+        scrollTop: $("#contact").offset().top,
+      },
+      1000
+    );
+    return false;
+  });
+
   /*-------------------------------------------------------------------------------
 	  Ajax Forms
 	-------------------------------------------------------------------------------*/
